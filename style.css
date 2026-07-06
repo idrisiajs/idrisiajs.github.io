@@ -250,3 +250,26 @@ footer h3 {
     transform:translateY(-3px);
     background:#efefef;
 }
+
+#games {
+  background: #f4f4f5;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 22px;
+}
+
+.games .card {
+  border-top: 6px solid #e30613;
+  cursor: pointer;
+}
+
+.games .card h3::before {
+  content: "🎮 ";
+}
+
+.games .card:hover {
+  box-shadow: 0 18px 40px rgba(227, 6, 19, 0.18);
+}
