@@ -1,188 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IDRISIAJS | Roblox Gameplay & Tutorials</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IDRISIAJS | Roblox Gameplay & Tutorials</title>
+  <meta name="description" content="IDRISIAJS shares Roblox gameplay videos, tutorials, tips, secrets, and fun adventures." />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-
-<header>
-    <div class="logo">IDRISIAJS</div>
-
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#games">Games</a>
-        <a href="#videos">Videos</a>
-        <a href="#tutorials">Tutorials</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+  <header class="header">
+    <a class="brand" href="#home"><img src="assets/images/logo.png" alt="IDRISIAJS logo"></a>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#videos">Videos</a>
+      <a href="#games">Games</a>
+      <a href="#tutorials">Tutorials</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
     </nav>
-</header>
+    <a class="subscribe" href="https://youtube.com/@Idrisiajs" target="_blank">Subscribe</a>
+    <button class="menu" id="menuBtn">☰</button>
+  </header>
 
-<section id="home">
-
-    <div class="hero">
-
-        <div class="hero-left">
-
-            <!-- Replace with your Roblox avatar -->
-            <img src="assets/images/avatar.png" alt="IDRISIAJS Avatar">
-
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Roblox Gaming Content</p>
+        <img class="hero-logo" src="assets/images/logo.png" alt="IDRISIAJS">
+        <h1>Play Roblox. Learn tricks. Share adventures.</h1>
+        <p class="hero-text">Explore Roblox with me! I play popular games, discover hidden secrets, test updates, complete challenges, and create simple tutorials to help players have more fun.</p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="https://youtube.com/@Idrisiajs" target="_blank"><span class="play-icon">▶</span> Watch Latest Video</a>
+          <a class="btn secondary" href="#games">Explore Games</a>
         </div>
+      </div>
+    </section>
 
-        <div class="hero-right">
+    <section id="videos" class="panel section-up">
+      <div class="section-title">
+        <h2>Latest Videos</h2>
+        <a href="https://youtube.com/@Idrisiajs" target="_blank">View all videos ›</a>
+      </div>
+      <div class="video-grid">
+        <article class="video-card" data-url="https://youtube.com/@Idrisiajs">
+          <div class="thumb"><img src="assets/images/doors.jpg" alt="DOORS video thumbnail"><div class="play-circle">▶</div></div>
+          <h3>DOORS Walkthrough</h3><p>Secrets, monsters and survival tips.</p><span>Coming soon</span>
+        </article>
+        <article class="video-card" data-url="https://youtube.com/@Idrisiajs">
+          <div class="thumb"><img src="assets/images/garden2.jpg" alt="Grow a Garden 2 thumbnail"><div class="play-circle">▶</div></div>
+          <h3>Grow a Garden 2 Guide</h3><p>Best plants, events and farming tricks.</p><span>Coming soon</span>
+        </article>
+        <article class="video-card" data-url="https://youtube.com/@Idrisiajs">
+          <div class="thumb"><img src="assets/images/fisch.jpg" alt="Fisch thumbnail"><div class="play-circle">▶</div></div>
+          <h3>Fisch Beginner Guide</h3><p>Fishing locations and money methods.</p><span>Coming soon</span>
+        </article>
+      </div>
+    </section>
 
-            <p class="tagline">
-                PLAY • LEARN • SHARE
-            </p>
+    <section id="games" class="section games-section">
+      <div class="section-title dark"><h2>Games I Play</h2><p>Roblox games featured on the channel.</p></div>
+      <div class="game-grid">
+        <article class="game-card"><img src="assets/images/doors.jpg" alt="DOORS"><h3>DOORS</h3><p>Horror • Secrets • Walkthroughs</p></article>
+        <article class="game-card"><img src="assets/images/garden2.jpg" alt="Grow a Garden 2"><h3>Grow a Garden 2</h3><p>Farming • Events • Rare Plants</p></article>
+        <article class="game-card"><img src="assets/images/fisch.jpg" alt="Fisch"><h3>Fisch</h3><p>Fishing • Money • Exploration</p></article>
+      </div>
+    </section>
 
-            <h1>
-                Welcome to IDRISIAJS
-            </h1>
+    <section id="tutorials" class="panel">
+      <div class="section-title"><h2>Tutorials</h2><a href="https://youtube.com/@Idrisiajs" target="_blank">Watch tutorials ›</a></div>
+      <div class="tutorial-grid">
+        <div class="tutorial-card">Beginner Guides</div>
+        <div class="tutorial-card">Best Settings</div>
+        <div class="tutorial-card">Hidden Secrets</div>
+        <div class="tutorial-card">Tips & Tricks</div>
+      </div>
+    </section>
 
-            <p>
-  Explore Roblox with me! I play popular games, discover hidden secrets,
-  test updates, complete challenges, and create simple tutorials to help
-  players learn while having fun.
-            </p>
+    <section id="about" class="about">
+      <img src="assets/images/avatar.png" alt="IDRISIAJS Roblox avatar">
+      <div>
+        <h2>About IDRISIAJS</h2>
+        <p>Hi! I'm Idrisiajs. I create Roblox gameplay videos, tutorials, tips, and guides to help players discover new games and have more fun.</p>
+        <a class="btn primary small" href="https://youtube.com/@Idrisiajs" target="_blank">Visit YouTube</a>
+      </div>
+    </section>
 
-            <div class="hero-buttons">
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>For channel or business inquiries:</p>
+      <a href="mailto:official.idrisiajs@gmail.com">official.idrisiajs@gmail.com</a>
+    </section>
+  </main>
 
-    <a class="btn-red"
-       href="https://youtube.com/@Idrisiajs"
-       target="_blank">
-        ▶ Watch YouTube
-    </a>
+  <footer>
+    <img src="assets/images/logo.png" alt="IDRISIAJS logo">
+    <p>© 2026 IDRISIAJS. Play • Learn • Share.</p>
+  </footer>
 
-    <a class="btn-white"
-       href="#games">
-        🎮 Explore Games
-    </a>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section id="games">
-
-    <h2>Games I Play</h2>
-
-    <div class="games">
-
-        <div class="card">
-            <div class="game-image doors"></div>
-            <h3>DOORS</h3>
-            <p>Horror • Secrets • Walkthroughs</p>
-        </div>
-
-        <div class="card">
-            <div class="game-image garden"></div>
-            <h3>Grow a Garden 2</h3>
-            <p>Farming • Events • Rare Plants</p>
-        </div>
-
-        <div class="card">
-            <div class="game-image fisch"></div>
-            <h3>Fisch</h3>
-            <p>Fishing • Money • Exploration</p>
-        </div>
-
-    </div>
-
-</section>
-
-<section id="videos" class="section">
-
-<h2>Latest Videos</h2>
-
-<div class="video-grid">
-
-<div class="video-card">
-<img src="assets/thumbnails/doors.jpg" alt="DOORS">
-<h3>DOORS Full Walkthrough</h3>
-<p>Secrets, monsters and survival tips.</p>
-</div>
-
-<div class="video-card">
-<img src="assets/thumbnails/garden2.jpg" alt="Grow a Garden 2">
-<h3>Grow a Garden 2 Guide</h3>
-<p>Best plants, events and farming tricks.</p>
-</div>
-
-<div class="video-card">
-<img src="assets/thumbnails/fisch.jpg" alt="Fisch">
-<h3>Fisch Beginner Guide</h3>
-<p>Fishing locations and money methods.</p>
-</div>
-
-</div>
-
-</section>
-
-<section id="tutorials">
-
-    <h2>Tutorials</h2>
-
-    <ul>
-        <li>Beginner Guides</li>
-        <li>Best Settings</li>
-        <li>Hidden Secrets</li>
-        <li>Tips & Tricks</li>
-        <li>Update Guides</li>
-    </ul>
-
-</section>
-
-<section id="about">
-
-    <h2>About IDRISIAJS</h2>
-
-    <p>
-        Hi! I'm Idrisiajs.
-        I create Roblox gameplay videos, tutorials,
-        tips, and guides to help players discover new
-        games and have more fun.
-    </p>
-
-</section>
-
-<section id="contact">
-
-    <h2>Contact</h2>
-
-    <p>Email</p>
-
-    <p>
-        official.idrisiajs@gmail.com
-    </p>
-
-    <p>
-        Website:
-        idrisiajs.com
-    </p>
-
-</section>
-
-<footer>
-
-    <h3>IDRISIAJS</h3>
-
-    <p>
-        Play • Learn • Share
-    </p>
-
-    <p>
-        © 2026 IDRISIAJS
-    </p>
-
-</footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
