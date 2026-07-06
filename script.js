@@ -1,9 +1,1 @@
-console.log("IDRISIAJS website loaded");
-
-const cards = document.querySelectorAll(".video-card");
-
-cards.forEach((card) => {
-  card.addEventListener("click", () => {
-    window.open("https://www.youtube.com/@idrisiajs", "_blank");
-  });
-});
+const menuBtn=document.getElementById('menuBtn');const nav=document.getElementById('nav');if(menuBtn){menuBtn.addEventListener('click',()=>nav.classList.toggle('open'))}document.querySelectorAll('.video-card').forEach(card=>{card.addEventListener('click',()=>{const url=card.getAttribute('data-url')||'https://youtube.com/@Idrisiajs';window.open(url,'_blank')})});
