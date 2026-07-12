@@ -3,14 +3,14 @@
   CHANNEL_HANDLE: "idrisiajs",
 
   // Shorts playlist ID only
-  SHORTS_PLAYLIST_ID: "PLarXnt0POJtc",
+  SHORTS_PLAYLIST_ID: "PLbcfD4ofr4hg",  //https://youtube.com/playlist?list=PLbcfD4ofr4hg&si=KH1PepIkNavs3ENr
 
   PLAYLISTS: {
     // Fisch playlist ID only
-    fisch: "PLbcfD4ofr4hg",
+    fisch: "PLarXnt0POJtc", //https://youtube.com/playlist?list=PLarXnt0POJtc&si=qoIyYY8kmt8CxLMl
 
     // Garden playlist ID only
-    garden: "PLEfHtPtpDOBo",
+    garden: "PLEfHtPtpDOBo", //https://youtube.com/playlist?list=PLEfHtPtpDOBo&si=w9mJYq1IAXE0l4PT
 
     // Replace when you have a DOORS playlist
     doors: ""
